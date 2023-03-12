@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+    <head>
+        <title>Quiz</title>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="quiz.css">
+        <script src="demo.js"></script>
+    </head>
+    <body>
+        <div id="navBar">
+        <img src="../pictures/logo_f.jpg" alt="Logo" id="logo">
+        <p id="down">To move down.<a href="#foot">Click Here</a></p>
+        </div>
+        <div id="btn">
+            <button onclick="startTest()">Start</button>
+            <p>Click Here to Start Quiz</p>
+        </div>
+        <div id="full">
+        <form name="quiz" id="quiz">
+            <fieldset>
+                <p class="quest">1) Who have won the highest number of world cups ?<br>
+                    <input type="radio" name="q1" id="q1a1" value="wrong">
+                    <label for="q1a1">India</label>
+                    <input type="radio" name="q1" id="q1a2" value="wrong">
+                    <label for="q1a2">West Indies</label>
+                    <input type="radio" name="q1" id="q1a3" value="wrong">
+                    <label for="q1a3">England</label>
+                    <input type="radio" name="q1" id="q1a4" value="correct">
+                    <label for="q1a4">Australia</label>
+                </p>
+                <p class="quest">2) Who is the first world test champion ?<br>
+                    <input type="radio" name="q2" id="q2a1" value="wrong">
+                    <label for="q2a1">Australia</label>
+                    <input type="radio" name="q2" id="q2a2" value="wrong">
+                    <label for="q2a2">India</label>
+                    <input type="radio" name="q2" id="q2a3" value="wrong">
+                    <label for="q2a3">Pakistan</label>
+                    <input type="radio" name="q2" id="q2a4" value="correct">
+                    <label for="q2a4">New Zealand</label>
+                </p>
+                <p class="quest">3) When did Sri Lanka win the ODI world cup ?<br>
+                    <input type="radio" name="q3" id="q3a1" value="wrong">
+                    <label for="q3a1">2005</label>
+                    <input type="radio" name="q3" id="q3a2" value="wrong">
+                    <label for="q3a2">1992</label>
+                    <input type="radio" name="q3" id="q3a3" value="wrong">
+                    <label for="q3a3">2014</label>
+                    <input type="radio" name="q3" id="q3a4" value="correct">
+                    <label for="q3a4">1996</label>
+                </p>
+                <p class="quest">4) Who has taken the highest number wickets ?<br>
+                    <input type="radio" name="q4" id="q4a1" value="wrong">
+                    <label for="q4a1">Shane Warne</label>
+                    <input type="radio" name="q4" id="q4a2" value="wrong">
+                    <label for="q4a2">Stuart Broad</label>
+                    <input type="radio" name="q4" id="q4a3" value="wrong">
+                    <label for="q4a3">Jasprit Bumrah</label>
+                    <input type="radio" name="q4" id="q4a4" value="correct">
+                    <label for="q4a4">Muththaiya Muralitheran</label>
+                </p>
+                <p class="quest">5) what is the highest number of runs scored in a over ?<br>
+                    <input type="radio" name="q5" id="q5a1" value="wrong">
+                    <label for="q5a1">36</label>
+                    <input type="radio" name="q5" id="q5a2" value="wrong">
+                    <label for="q5a2">43</label>
+                    <input type="radio" name="q5" id="q5a3" value="wrong">
+                    <label for="q5a3">55</label>
+                    <input type="radio" name="q5" id="q5a4" value="correct">
+                    <label for="q5a4">77</label>
+                </p>
+                <p class="quest">6) Who scored the fastest ODI century ?<br>
+                    <input type="radio" name="q6" id="q6a1" value="wrong">
+                    <label for="q6a1">Sachin Tendulkar</label>
+                    <input type="radio" name="q6" id="q6a2" value="wrong">
+                    <label for="q6a2">Kumar Sangakkara</label>
+                    <input type="radio" name="q6" id="q6a3" value="wrong">
+                    <label for="q6a3">Chris Gayle</label>
+                    <input type="radio" name="q6" id="q6a4" value="correct">
+                    <label for="q6a4">AB de Villiers</label>
+                </p>
+                <p class="quest">7) How many balls per over ?<br>
+                    <input type="radio" name="q7" id="q7a1" value="wrong">
+                    <label for="q7a1">10</label>
+                    <input type="radio" name="q7" id="q7a2" value="wrong">
+                    <label for="q7a2">3</label>
+                    <input type="radio" name="q7" id="q7a3" value="wrong">
+                    <label for="q7a3">12</label>
+                    <input type="radio" name="q7" id="q7a4" value="correct">
+                    <label for="q7a4">6</label>
+                </p>
+                <p class="quest">8) Once in how many years is a ODI world cup played ?<br>
+                    <input type="radio" name="q8" id="q8a1" value="wrong">
+                    <label for="q8a1">8</label>
+                    <input type="radio" name="q8" id="q8a2" value="wrong">
+                    <label for="q8a2">12</label>
+                    <input type="radio" name="q8" id="q8a3" value="wrong">
+                    <label for="q8a3">6</label>
+                    <input type="radio" name="q8" id="q8a4" value="correct">
+                    <label for="q8a4">4</label>
+                </p>
+                <p class="quest">9) Where did cricket start ?<br>
+                    <input type="radio" name="q9" id="q9a1" value="wrong">
+                    <label for="q9a1">Australia</label>
+                    <input type="radio" name="q9" id="q9a2" value="wrong">
+                    <label for="q9a2">New Zealand</label>
+                    <input type="radio" name="q9" id="q9a3" value="wrong">
+                    <label for="q9a3">Sri Lanka</label>
+                    <input type="radio" name="q9" id="q9a4" value="correct">
+                    <label for="q9a4">England</label>
+                </p>
+                <p class="quest">10) What is the highest individual test score ?<br>
+                    <input type="radio" name="q10" id="q10a1" value="wrong">
+                    <label for="q10a1">347</label>
+                    <input type="radio" name="q10" id="q10a2" value="wrong">
+                    <label for="q10a2">477</label>
+                    <input type="radio" name="q10" id="q10a3" value="wrong">
+                    <label for="q10a3">299</label>
+                    <input type="radio" name="q10" id="q10a4" value="correct">
+                    <label for="q10a4">400</label>
+                </p>
+                <br>
+                <input type="button" value="Submit" onclick="checkOfForm()">
+                </fieldset>
+        </form>
+        <div id="demo1">
+        <p id="results"></p>
+        <p id="summaryTime">Time Spent to answer : 0</p>
+        </div>
+        <div id="foot">
+        <p id="edit">To view about the editor <a href="../Editor/Editor.html" target="_blank">Click Here</a></p>
+        <p id="move">To move up.<a href="#navBar">Click Here</a></p>
+        </div>
+        </div>
+    </body>
+</html>

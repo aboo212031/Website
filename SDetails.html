@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>Details</title>
+        <meta charset="utf-8">
+        <style>
+            body
+            {
+                background-image: url("../pictures/stBgd.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #llo
+            {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .person
+            {
+                margin-bottom: 5%;
+                width: 300px;
+                height: 350px;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+           .i1
+           {
+               position: relative;
+               width: 99%;
+               height: 75%;
+               margin-bottom: 0;
+           }
+           .text
+           {
+               margin: 0;
+               position: relative;
+               background-color: aqua;
+               width: 98%;
+               height: 15%;
+               padding-left: 1%;
+               padding-top: 1%;
+               display: none;
+               top: -1.5%;
+               transition: dispaly 0.5s;
+           }
+           .person:hover .text
+           {
+               display: block;
+               margin: 0;
+           }
+           #asd img
+           {
+               width: 100px;
+               height: 100px;
+               margin-bottom: 10px;
+           }
+           #ft, a
+           {
+               color: white;
+           }
+        </style>
+        
+    </head>
+    <body>
+        <div id="asd"><img src="../pictures/logo_f.jpg" alt="logo"></div>
+        <div id="llo">
+        <div class="person">
+           <img src="../pictures/dasun.jpg" alt="First" class="i1">
+            <div class="text">
+                Dasun Widuranga<br>
+                Student - 2
+            </div>
+        </div>
+        <div class="person">
+            <img src="../pictures/aboo.jpg" alt="First" class="i1">
+             <div class="text">
+                 Abubakr Rizan<br>
+                 Student - 3
+             </div>
+         </div>
+         <div class="person">
+            <img src="../pictures/thilini.jpg" alt="First" class="i1">
+             <div class="text">
+                 Thilini Abeywickrama <br>
+                 Student - 1
+             </div>
+         </div>
+         <div class="person">
+            <img src="../pictures/tharagan.jpg" alt="First" class="i1">
+             <div class="text">
+                 Tharagan Sivanesathurai<br>
+                 Student - 4
+             </div>
+         </div>
+         </div>
+         <div id="ft">To view about the editor.<a href="../Editor/Editor.html" target="_blank">Click Here</a></div>
+    </body>
+</html>
